@@ -1,0 +1,15 @@
+node_modules
+
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Local SQLite database
+dev.db
+
+# Local development tools
+.agents/
+.claude/
+.windsurf/
+skills-lock.json

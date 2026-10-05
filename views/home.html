@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            Restaurant
+        </div>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="navbar-actions">
+
+            <a href="/customer-login" class="login-btn" id="login-link">
+                Login
+            </a>
+
+            <a href="/register" class="register-btn" id="register-link">
+                Register
+            </a>
+
+            <button class="logout-btn" id="logout-btn" style="display: none;">
+                Logout
+            </button>
+
+            <a href="#menu" class="order-btn">
+                Order Now
+            </a>
+
+            <a href="/cart" class="cart-btn">
+                Cart
+                <span id="cart-count">0</span>
+            </a>
+
+            <a href="/orders" class="orders-btn">
+                My Orders
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">WELCOME TO OUR RESTAURANT</p>
+
+                <h1>
+                    Delicious Food,
+                    <span>Made With Love.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Enjoy delicious meals prepared with fresh ingredients
+                    and delivered straight to your door.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="primary-btn">Explore Menu</a>
+                    <a href="#about" class="secondary-btn">Learn More</a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+                    alt="Delicious pizza"
+                >
+
+            </div>
+
+        </section>
+
+
+        <section id="menu" class="menu-section">
+
+            <div class="section-title">
+                <p>OUR MENU</p>
+                <h2>Popular Dishes</h2>
+            </div>
+
+            <div class="menu-container" id="menu-container">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <h3>Restaurant</h3>
+
+        <p>
+            Delicious food made with love.
+        </p>
+
+        <p class="copyright">
+            © 2026 Restaurant. All rights reserved.
+        </p>
+
+    </footer>
+    
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
